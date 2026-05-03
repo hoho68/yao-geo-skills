@@ -27,6 +27,17 @@
 - 顺手去改后台业务逻辑、SEO 契约、路由或文章查询规则
 - 在主题里硬编码后台地址、数据库查询或独立语言切换逻辑
 
+## 公开示例
+
+Qiaomu editorial 示例提供一个公开的设计工作流审阅入口：
+
+- 示例说明：[examples/qiaomu-editorial/README.md](../../skills/yao-geoflow-design/examples/qiaomu-editorial/README.md)
+- 预览路由：[preview/qiaomu-editorial-20260418](../../skills/yao-geoflow-design/preview/qiaomu-editorial-20260418)
+- 映射报告：[qiaomu-blog-mapping-2026-04-18.md](../../skills/yao-geoflow-design/reports/qiaomu-blog-mapping-2026-04-18.md)
+
+该示例用于设计审阅和工作流理解，不表示生产主题已经启用，也不替代
+`yao-geoflow-template` 的自包含 package metadata 合同。
+
 ## English Overview
 
 Use `yao-geoflow-design` when the job is to turn a reference frontend into a **GEOFlow-compatible theme package plan** or to optimize the current GEOFlow template without breaking its contract.

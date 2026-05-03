@@ -2,6 +2,14 @@
 
 该文档记录公开 skill 仓库的发布更新。后续每次向 GitHub 推送新 skill 或调整仓库入口时，同步更新本文件和英文版 `CHANGELOG.en.md`。
 
+## 2026-05-03
+
+### `yao-geoflow-design` 公开示例入口
+
+- 为现有 Qiaomu editorial 设计工作流新增 `examples/qiaomu-editorial/README.md` 公开入口
+- 在 skill README 和中英文说明页中链接已提交的 preview 路由与 mapping reports
+- 明确该示例用于设计审阅，不表示生产启用，也不替代 `yao-geoflow-template` 的自包含 package 合同
+
 ## 2026-04-26
 
 ### `yao-geoflow-cli` Laravel API v1 / Docker 适配收尾

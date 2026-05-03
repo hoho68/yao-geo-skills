@@ -24,6 +24,19 @@ This version is aligned with the GEOFlow Laravel Blade theme system: theme packa
 - changing backend logic, routing, SEO rules, or content-query behavior
 - hard-coding admin URLs, database queries, or independent language-switch logic inside a theme
 
+## Public Example
+
+The Qiaomu editorial example provides a public review entry point for the
+design workflow:
+
+- Example README: [examples/qiaomu-editorial/README.md](../../skills/yao-geoflow-design/examples/qiaomu-editorial/README.md)
+- Preview routes: [preview/qiaomu-editorial-20260418](../../skills/yao-geoflow-design/preview/qiaomu-editorial-20260418)
+- Mapping report: [qiaomu-blog-mapping-2026-04-18.md](../../skills/yao-geoflow-design/reports/qiaomu-blog-mapping-2026-04-18.md)
+
+This example is for design review and workflow inspection. It does not activate
+a production theme and does not replace the separate `yao-geoflow-template`
+self-contained package contract.
+
 ## Package Links
 
 - Skill package: [skills/yao-geoflow-design](../../skills/yao-geoflow-design)

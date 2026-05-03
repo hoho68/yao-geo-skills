@@ -58,7 +58,7 @@
       "path": "skills/yao-geoflow-cli",
       "summary": "Operate an existing GEOFlow system through the local geoflow CLI or Laravel API v1 fallback for catalog lookup, task execution, article upload, review, publish flows, and Docker preflight diagnostics.",
       "public_repo_path": "skills/yao-geoflow-cli",
-      "last_updated": "2026-04-26"
+      "last_updated": "2026-05-03"
     },
     {
       "id": "yao-geo-tracking",

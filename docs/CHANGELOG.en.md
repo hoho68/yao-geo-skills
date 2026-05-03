@@ -2,6 +2,14 @@
 
 This document tracks public repository releases for the skill catalog. Update this file together with the Chinese version in `CHANGELOG.md` whenever a new skill or a significant repository-level change is pushed.
 
+## 2026-05-03
+
+### `yao-geoflow-design` public example entry
+
+- Added a public `examples/qiaomu-editorial/README.md` entry for the existing Qiaomu editorial design workflow
+- Linked the committed preview routes and mapping reports from the skill README and Chinese/English guides
+- Documented that the example is for design review, not production activation or the self-contained `yao-geoflow-template` package contract
+
 ## 2026-04-26
 
 ### `yao-geoflow-cli` Laravel API v1 / Docker alignment

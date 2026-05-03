@@ -20,6 +20,15 @@ This skill does not directly deploy a template to production, rewrite GEOFlow ba
 
 It also does not hard-code `/geo_admin`, add independent public language switching, or change controllers/routes/database queries during a design-only run.
 
+## Public Example
+
+- `examples/qiaomu-editorial/README.md`: public example entry point for the Qiaomu editorial design workflow
+- `preview/qiaomu-editorial-20260418/`: committed preview routes for homepage, category, article, and archive review
+- `reports/qiaomu-blog-mapping-2026-04-18.md`: design mapping report for the reference-to-GEOFlow exercise
+
+The example is a design workflow artifact. It is not a production activation
+request and does not claim a self-contained package metadata contract.
+
 ## Package Map
 
 - `SKILL.md`: trigger boundary and execution workflow
@@ -32,6 +41,7 @@ It also does not hard-code `/geo_admin`, add independent public language switchi
 - `references/design-optimization-playbook.md`: optimization-mode workflow and heuristics
 - `references/theme-edit-workflow.md`: target-theme discovery, preview-fork editing, and finalize workflow
 - `evals/trigger_cases.json`: trigger boundary checks
+- `examples/qiaomu-editorial/README.md`: public example entry point and review boundary
 - `reports/intent-dialogue.md`: captured job framing
 - `reports/reference-scan.md`: local-fit reference notes
 - `reports/iteration-directions.md`: next engineering moves
