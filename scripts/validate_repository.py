@@ -32,7 +32,7 @@ def fail(message: str) -> None:
 def load_registry() -> dict:
     registry_path = ROOT / "registry" / "skills.json"
     try:
-        return json.loads(registry_path.read_text())
+        return json.loads(registry_path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
         fail(f"registry/skills.json is invalid JSON: {exc}")
 
