@@ -1,0 +1,24 @@
+{
+  "id": "qiaomu-preview",
+  "name": "Qiaomu Preview Fixture",
+  "description": "Minimal non-production GEOFlow Laravel theme fixture.",
+  "version": "0.1.0",
+  "mode": "edit_theme",
+  "session_state": "preview",
+  "preview_routes": [
+    "/",
+    "/category/{slug}",
+    "/article/{slug}",
+    "/archive"
+  ],
+  "notes": [
+    "Fixture-only theme for local workflow validation.",
+    "Do not activate in production.",
+    "Preview edit session forked from default.",
+    "Do not activate before review.",
+    "Requested changes: Fixture-only landing reroute drill; keep preview separate from activation."
+  ],
+  "base_theme_id": "default",
+  "target_theme_id": "default",
+  "created_at": "2026-05-04T14:35:13+08:00"
+}

@@ -1,0 +1,4 @@
+#!/usr/bin/env php
+<?php
+
+echo "Minimal GEOFlow Laravel fixture. This is not a runnable app.\n";

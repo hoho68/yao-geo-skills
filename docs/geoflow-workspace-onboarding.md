@@ -146,6 +146,17 @@ Findings:
 This pass reinforces the current correction: the real GEOFlow application source
 is not currently present in the checked local paths.
 
+## Landing Reroute
+
+Because no real GEOFlow application source was found locally, the landing path
+now uses a fixture-only workspace for workflow validation:
+
+- fixture: `fixtures/geoflow-laravel-minimal`
+- report: `docs/landing-reroute-fixture-report.md`
+
+The fixture is suitable for testing discovery and preview edit-session scripts.
+It is not a replacement for a real application acceptance pass.
+
 ## Ready Criteria For The Next Workspace
 
 Use one of the following acceptable inputs:

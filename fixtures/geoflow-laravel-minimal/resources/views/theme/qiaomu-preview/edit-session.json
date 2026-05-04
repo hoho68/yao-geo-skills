@@ -1,0 +1,36 @@
+{
+  "base_theme_id": "default",
+  "preview_theme_id": "qiaomu-preview",
+  "framework": "laravel",
+  "created_at": "2026-05-04T14:35:13+08:00",
+  "session_state": "preview",
+  "change_request": "Fixture-only landing reroute drill; keep preview separate from activation.",
+  "preview_routes": [
+    "/",
+    "/category/{slug}",
+    "/article/{slug}",
+    "/archive"
+  ],
+  "preview_note": "Laravel GEOFlow does not expose isolated /preview/{theme} routes by default; use static previews or activate the preview theme only after operator confirmation.",
+  "editable_files": [
+    "archive.blade.php",
+    "article.blade.php",
+    "category.blade.php",
+    "home.blade.php",
+    "partials/footer.blade.php",
+    "partials/header.blade.php",
+    "assets/theme.css",
+    "manifest.json",
+    "tokens.json",
+    "mapping.json"
+  ],
+  "finalize_options": [
+    "publish_as_new_theme",
+    "replace_base_theme",
+    "activate_after_confirmation"
+  ],
+  "warnings": [
+    "Preview the fork before any live replacement.",
+    "Do not change business logic or data contracts in this session."
+  ]
+}

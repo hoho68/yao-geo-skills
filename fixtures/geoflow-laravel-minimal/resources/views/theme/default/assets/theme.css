@@ -1,0 +1,70 @@
+:root {
+  --background: #f7f7f4;
+  --surface: #ffffff;
+  --ink: #18202a;
+  --muted: #667085;
+  --line: #dde1e6;
+  --accent: #2563eb;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--ink);
+  font-family: system-ui, sans-serif;
+}
+
+.site-header,
+.site-footer,
+.theme-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+}
+
+.nav a,
+.archive-row a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.hero,
+.page-heading,
+.article-card,
+.article-detail,
+.archive-row {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.eyebrow,
+.meta {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.article-list,
+.archive-list {
+  display: grid;
+  gap: 16px;
+}

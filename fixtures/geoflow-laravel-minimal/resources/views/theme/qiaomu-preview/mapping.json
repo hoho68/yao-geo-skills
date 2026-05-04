@@ -1,0 +1,27 @@
+{
+  "id": "default-fixture-mapping",
+  "compatible_pages": [
+    "homepage",
+    "category",
+    "article",
+    "archive"
+  ],
+  "module_mapping": {
+    "home": [
+      "home.hero",
+      "home.article_list"
+    ],
+    "category": [
+      "category.heading",
+      "category.article_list"
+    ],
+    "article": [
+      "article.detail",
+      "article.prose"
+    ],
+    "archive": [
+      "archive.rows"
+    ]
+  },
+  "activation_status": "fixture-only"
+}

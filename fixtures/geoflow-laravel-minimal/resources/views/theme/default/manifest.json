@@ -1,0 +1,18 @@
+{
+  "id": "default",
+  "name": "Default Fixture Theme",
+  "description": "Minimal non-production GEOFlow Laravel theme fixture.",
+  "version": "0.1.0",
+  "mode": "theme",
+  "session_state": "baseline",
+  "preview_routes": [
+    "/",
+    "/category/{slug}",
+    "/article/{slug}",
+    "/archive"
+  ],
+  "notes": [
+    "Fixture-only theme for local workflow validation.",
+    "Do not activate in production."
+  ]
+}
