@@ -8,7 +8,10 @@
 
 ## Preview Checklist
 
-- check home/category/article/archive preview routes
-- for Laravel GEOFlow, confirm whether preview is static or temporarily activated through Site Settings
-- verify layout, typography, spacing, and module hierarchy
-- confirm GEOFlow data placeholders still render correctly
+- [x] keep edits scoped to `qiaomu-preview`
+- [x] point preview Blade includes at `theme.qiaomu-preview.partials.*`
+- [x] apply a small editorial home/card styling slice
+- [x] update preview tokens and mapping metadata
+- [ ] review home/category/article/archive preview routes in a real app shell
+- [ ] confirm GEOFlow data placeholders still render correctly
+- [ ] keep production activation out of scope

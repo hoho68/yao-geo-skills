@@ -1,5 +1,5 @@
 {
-  "id": "default-fixture-mapping",
+  "id": "qiaomu-preview-fixture-mapping",
   "compatible_pages": [
     "homepage",
     "category",
@@ -23,5 +23,10 @@
       "archive.rows"
     ]
   },
-  "activation_status": "fixture-only"
+  "safe_boundaries": [
+    "Only qiaomu-preview theme files were edited.",
+    "The default baseline theme remains unchanged.",
+    "Preview status does not imply production activation readiness."
+  ],
+  "activation_status": "preview-only"
 }

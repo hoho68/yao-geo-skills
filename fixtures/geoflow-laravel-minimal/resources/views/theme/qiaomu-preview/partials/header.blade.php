@@ -1,5 +1,5 @@
 <header class="site-header">
-  <a class="brand" href="/">GEOFlow Fixture</a>
+  <a class="brand" href="/">Qiaomu Preview</a>
   <nav class="nav">
     <a href="/">Home</a>
     <a href="/category/example">Category</a>

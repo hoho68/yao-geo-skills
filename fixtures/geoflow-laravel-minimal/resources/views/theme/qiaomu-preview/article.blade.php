@@ -1,4 +1,4 @@
-@include('theme.default.partials.header')
+@include('theme.qiaomu-preview.partials.header')
 
 <main class="theme-shell article-shell">
   <article class="article-detail">
@@ -11,4 +11,4 @@
   </article>
 </main>
 
-@include('theme.default.partials.footer')
+@include('theme.qiaomu-preview.partials.footer')

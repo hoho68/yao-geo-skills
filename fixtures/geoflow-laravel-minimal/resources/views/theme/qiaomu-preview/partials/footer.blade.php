@@ -1,3 +1,3 @@
 <footer class="site-footer">
-  <p>Fixture-only preview surface. Not for production activation.</p>
+  <p>Qiaomu preview fixture. Review only; not for production activation.</p>
 </footer>
