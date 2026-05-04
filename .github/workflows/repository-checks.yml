@@ -24,3 +24,6 @@ jobs:
 
       - name: Smoke validate Yao GEOFlow template package
         run: python3 scripts/smoke_yao_geoflow_template_package.py
+
+      - name: Smoke validate GEOFlow Laravel fixture
+        run: python3 scripts/smoke_geoflow_laravel_fixture.py

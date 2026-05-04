@@ -102,3 +102,21 @@ Use the fixture for one MVP preview edit slice:
 4. rerun discovery and repository validation
 5. do not run `finalize_theme_edit_session.py` unless the goal is explicitly to
    test publish/replace mechanics inside the fixture
+
+## Fixture Quality Gate
+
+The fixture workflow is guarded by:
+
+```powershell
+python scripts\smoke_geoflow_laravel_fixture.py
+```
+
+The smoke test verifies:
+
+- `discover_themes.py` recognizes the fixture as Laravel
+- the fixture exposes exactly `default` and `qiaomu-preview`
+- `default` remains a baseline theme
+- `qiaomu-preview` remains an `edit_theme` preview session
+- preview Blade files do not reference `theme.default`
+- preview metadata keeps `activation_status=preview-only`
+- no `.theme-backups` directory is committed under the fixture

@@ -24,6 +24,8 @@ Before pushing, confirm:
 - committed `yao-geoflow-template` theme packages include self-contained
   metadata, preview routes, an example README, and `activation_status=preview-only`
   unless a separate activation spec is linked
+- committed GEOFlow fixtures are marked non-production, keep preview edits
+  isolated from baseline themes, and pass fixture smoke validation
 
 ## Commit Rules
 
@@ -99,4 +101,6 @@ The repository should keep a GitHub Actions workflow that checks:
 - `yao-geoflow-template` public preview packages are smoke-tested for package
   metadata, preview routes, safe activation boundaries, and ignored runtime
   output references
+- GEOFlow Laravel fixtures are smoke-tested for discovery, preview session
+  status, baseline-theme isolation, and preview-only activation boundaries
 - public skills are synchronized with the registry
