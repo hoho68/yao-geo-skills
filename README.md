@@ -2,6 +2,9 @@
 
 面向 `GEO`（`Generative Engine Optimization`）工作流的开源 Skill 仓库。
 
+新手入口：
+[START-HERE.md](START-HERE.md)
+
 英文说明文档：
 [英文版 README](docs/README.en.md)
 
