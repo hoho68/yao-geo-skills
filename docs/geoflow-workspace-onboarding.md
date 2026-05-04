@@ -102,6 +102,50 @@ This means the current project path can remain the local Skill landing
 baseline, but it should not be treated as the real GEOFlow application
 workspace for theme editing.
 
+## Source Location Correction Pass
+
+On 2026-05-04, a broader read-only source location pass checked whether the real
+GEOFlow application might be elsewhere on the local machine.
+
+Checked areas:
+
+- `D:\GEO`
+- `D:\GEO.claude`
+- `D:\Downloads`
+- `D:\Documents`
+- `D:\BaiduNetdiskDownload`
+- `D:\下载收集`
+- `D:\文档`
+- common user folders under `C:\Users\Administrator`
+- likely workspace directories under `D:\跨境龙虾会`, `D:\致盛龙虾会`, and
+  `D:\MyLocalBot`
+
+The scan looked for:
+
+- Laravel signals: `artisan`, `routes/web.php`, `resources/views/site`,
+  `resources/views/theme`, `composer.json`
+- legacy PHP signals: `index.php`, `article.php`, `category.php`,
+  `archive.php`, `includes/header.php`, `themes`
+- Git repositories with names or remotes related to `geo`, `geoflow`, `yao`,
+  `flow`, or `skills`
+- likely compressed source archives with names related to `geo`, `geoflow`,
+  `yao`, `laravel`, `theme`, `源码`, or `项目`
+
+Findings:
+
+- No directory had the Laravel or legacy PHP GEOFlow signal set.
+- No matching source archive was found in the checked download/document paths.
+- `D:\Downloads\i4Tools9\themes` was a false positive from a third-party tool.
+- `D:\GEO\yao-geo-skills` and
+  `D:\跨境龙虾会\金算盘\workspace\_yao-geo-skills` are Skill repository copies,
+  not GEOFlow applications.
+- Workspace-like directories such as `D:\跨境龙虾会\金算盘\workspace`,
+  `D:\致盛龙虾会\小红虾\workspace`, and `D:\MyLocalBot\moltbot\workspace`
+  returned `theme_system_detected=false` and `theme_count=0`.
+
+This pass reinforces the current correction: the real GEOFlow application source
+is not currently present in the checked local paths.
+
 ## Ready Criteria For The Next Workspace
 
 Use one of the following acceptable inputs:
