@@ -32,6 +32,10 @@
 
 - [客户项目资料表](docs/client-project-intake-template.md)
 
+如果你还不知道这个工具怎么用，先看一遍：
+
+- [用 Qiaomu 示例学会使用 GEO 工具](docs/learn-by-qiaomu-example.md)
+
 让客户尽量填完整。最少要问到：
 
 - 客户网站网址
