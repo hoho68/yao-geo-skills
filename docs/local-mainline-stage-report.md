@@ -150,3 +150,9 @@ available.
 That checklist should say exactly what path to provide, what files must exist,
 which command to run first, and what conditions must be true before any preview
 edit session is created.
+
+The handoff checklist now lives at:
+
+```text
+docs/geoflow-app-handoff-checklist.md
+```

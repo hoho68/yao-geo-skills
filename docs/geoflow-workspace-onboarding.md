@@ -172,6 +172,9 @@ The workspace is ready for theme discovery when one of these signal sets exists:
 - legacy PHP: `index.php`, `article.php`, `category.php`, `archive.php`,
   `includes/header.php`, and `themes`
 
+For the detailed intake gate, use
+`docs/geoflow-app-handoff-checklist.md`.
+
 ## Recommended Next Step
 
 Place or clone the real GEOFlow application under `D:\GEO`, then run theme
