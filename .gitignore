@@ -23,5 +23,8 @@ outputs-demo/
 tmp/
 temp/
 
+# Private client project workspaces
+docs/projects/
+
 .idea/
 .vscode/
