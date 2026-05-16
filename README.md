@@ -239,11 +239,13 @@ yao-geo-skills/
 - [docs/skills/](docs/skills)：适合直接阅读的 skill 说明文档
 - [registry/skills.json](registry/skills.json)：仓库 skill 清单
 - [scripts/validate_repository.py](scripts/validate_repository.py)：仓库级校验脚本
+- [scripts/setup_workspace.ps1](scripts/setup_workspace.ps1)：第二台电脑初始化脚本
 - [docs/](docs)：仓库规则、契约、命名和发布说明
 
 ## 仓库文档
 
 - [英文首页说明](docs/README.en.md)
+- [第二台电脑部署说明](docs/second-machine-setup.md)
 - [更新日志](docs/CHANGELOG.md)
 - [仓库设计](docs/repository-design.md)
 - [输入输出契约](docs/input-output-contract.md)

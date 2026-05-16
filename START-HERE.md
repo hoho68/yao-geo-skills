@@ -136,6 +136,7 @@
 - Laravel fixture：没有真实源码时的安全演练对象
 - smoke 检查：防止预览边界被破坏
 - 真实应用交接清单：拿到客户源码后的第一步
+- 第二台电脑部署说明和初始化脚本：看 [docs/second-machine-setup.md](docs/second-machine-setup.md)
 
 ## 下一步最实用的动作
 
