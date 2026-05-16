@@ -45,6 +45,9 @@ cd "$workspace\yao-geo-skills"
 .\scripts\setup_workspace.ps1
 ```
 
+If you want another Codex session to perform the setup automatically, copy the full contents of
+`docs/second-machine-codex-task.md` into Codex on the second computer and ask it to execute the task.
+
 If the repository already exists, run the script from inside the repository:
 
 ```powershell

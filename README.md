@@ -246,6 +246,7 @@ yao-geo-skills/
 
 - [英文首页说明](docs/README.en.md)
 - [第二台电脑部署说明](docs/second-machine-setup.md)
+- [给第二台电脑 Codex 的执行任务](docs/second-machine-codex-task.md)
 - [更新日志](docs/CHANGELOG.md)
 - [仓库设计](docs/repository-design.md)
 - [输入输出契约](docs/input-output-contract.md)
